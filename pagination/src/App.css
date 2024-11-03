@@ -1,0 +1,16 @@
+.table-container {
+  width: 100%;
+}
+
+.table {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.table-cols {
+  background-color: gold;
+}
+
+.table-row {
+  text-align: center;
+}
