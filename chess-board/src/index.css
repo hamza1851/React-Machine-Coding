@@ -1,0 +1,28 @@
+.board {
+  height: 400px;
+  width: 400px;
+  background-color: grey;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  border: 2px solid purple;
+}
+
+.cell {
+  height: 50px;
+  width: 50px;
+  margin: 0;
+  /* border: 1px solid black; */
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}
+
+.red {
+  background-color: red;
+}
