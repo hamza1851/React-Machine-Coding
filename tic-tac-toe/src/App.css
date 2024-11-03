@@ -1,0 +1,26 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.winning-stats {
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.sqr {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+}
